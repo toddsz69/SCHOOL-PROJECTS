@@ -1,4 +1,6 @@
-angka = [5, 1, 9, 3, 7]
+input_str = input("Masukkan angka-angka: ")
+angka = list(map(int, input_str.split()))
+
 min, max = angka[0], angka[0]
 
 for num in angka:
